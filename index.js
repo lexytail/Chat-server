@@ -2,7 +2,7 @@ let
   express = require('express'),
   bodyParser = require('body-parser'),
   cors = require('cors'),
-  router = require('./router'),
+  router = require('./app'),
   app = express()
 
 require('./app/config')

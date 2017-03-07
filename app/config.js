@@ -1,3 +1,4 @@
+/*
 let
 	passport = require('passport'),
 	User = require('../database/user/model'),
@@ -21,3 +22,4 @@ passport.use('local.signup', new LocalStrategy({
 		newUser.save((err, user) => err ? done(err) : done(null, newUser))
 	})
 }))
+*/
