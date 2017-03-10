@@ -1,4 +1,4 @@
-let get = (option) => {
+let get = option => {
 
   let
     mngs = require('mongoose'),
